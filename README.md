@@ -1,8 +1,39 @@
 # LibreDelphi
-Open-source approach to make the Delphi method accessible to everyone
-LibreDelphi is an open-source platform for conducting transparent, reproducible and scientifically rigorous Delphi studies.
-## About
-This repository provides an open-source implementation designed to make the Delphi method easy to use, transparent, and accessible to a broad audience. The project aims to lower the barriers for researchers, practitioners, and organizations who want to conduct structured expert surveys and consensus-building processes without relying on proprietary tools.
-By providing a flexible and openly available framework, the repository enables users to design, conduct, and evaluate Delphi studies in a systematic and reproducible way. It supports iterative survey rounds, anonymous expert feedback, and controlled aggregation of responses—core elements of the Delphi methodology.
-The goal of this project is to democratize access to a proven scientific method for collective intelligence, enabling its application in research, policy development, risk analysis, and strategic decision-making.
-Contributions, improvements, and adaptations are welcome to further expand the usability and impact of the project.
+
+LibreDelphi is a lightweight, self-hosted platform for conducting Delphi studies.
+
+The software provides a simple framework for managing expert panels, running survey rounds, and collecting structured responses.
+
+LibreDelphi intentionally does **not perform statistical analysis**.
+All evaluation is done externally by the researcher.
+
+## Features
+
+- self-hosted
+- lightweight
+- SQLite database
+- XLSX participant import
+- Likert scales (1–5, 1–7, 1–9)
+- CSV export
+- anonymous participant IDs
+
+## Installation
+
+```bash
+git clone https://github.com/yourname/libre-delphi
+cd libre-delphi
+pip install -r requirements.txt
+python run.py
+```
+
+Open:
+
+http://localhost:8000
+
+## Philosophy
+
+LibreDelphi follows three principles:
+
+- lightweight
+- self-hosted
+- open science
